@@ -56,7 +56,7 @@ var nbTicket = 0;
 
 const prefix = "!";
 
-Client.login("OTM2MzU4NDg1MTgzMDcwMjM4.GVu8-B.JK7NpDvbqDyQcnOBoVdE-M1SdRKVgkdiG6nBx4");
+Client.login("process.env.TOKEN");
 
 Client.on("messageCreate", message => {
     if(message.content[0] === prefix) {
